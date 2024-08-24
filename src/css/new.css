@@ -97,3 +97,40 @@ color: brown;
     color: brown;
     scale: 1.1;
 }
+
+.feedback-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    display: block;
+}
+
+label{
+    margin-bottom: 25px;
+    
+}
+input{
+    margin-top: 24px;
+    display: block;
+    border: 1px dotted #ffffff;
+        border-radius: 3px;
+        min-width: 400px;
+        min-height: 50px;
+       background-color: #a8678fb7;
+       padding-left: 10px;
+
+}
+textarea{
+    margin-top: 24px;
+    display: block;display: block;
+        border: 1px dotted #ffffff;
+        border-radius: 3px;
+        min-width: 400px;
+        min-height: 50px;
+        background-color: #a8678fb7;
+        padding-left: 10px;
+}
