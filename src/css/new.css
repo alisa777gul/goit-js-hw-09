@@ -43,12 +43,29 @@ li:focus {
     align-items: center;
     flex-direction: column;
     gap: 25px;
-    
+  
+}
+
+body{
+    background-color: rgba(54, 33, 73, 0.616)
 }
 
 .item-link{
     font-size: 56px;
-    color: rgba(112, 19, 112, 0.575);
+    color: rgba(103, 255, 1, 0.979);
     font-style: italic;
+  background-color: rgba(112, 29, 101, 0.267);
+  border: 1px black;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 300px;
+box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+transition: color 1s;
+}
 
+.item-link:hover,
+.item-link:focus {
+color: brown;
 }
