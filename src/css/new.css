@@ -34,3 +34,21 @@ li:hover,
 li:focus {
     scale: 1.1;
 }
+
+
+.list-link{
+    display: flex;
+  margin-top: auto;
+  margin-bottom: auto;
+    align-items: center;
+    flex-direction: column;
+    gap: 25px;
+    
+}
+
+.item-link{
+    font-size: 56px;
+    color: rgba(112, 19, 112, 0.575);
+    font-style: italic;
+
+}
