@@ -1,6 +1,6 @@
 .gallery-image {
-    max-width: 320px;
-
+    min-width: 360px;
+max-height: 200px;
     display: block;
 }
 
@@ -22,7 +22,8 @@
 
 
 .gallery-link {
-    max-width: 320px;
+    min-width: 360px;
+    max-height: 200px;
     display: block;
 }
 
