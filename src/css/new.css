@@ -70,3 +70,30 @@ cursor: pointer;
 .item-link:focus {
 color: brown;
 }
+
+.button-link{
+     
+            font-size: 36px;
+            color: rgba(103, 255, 1, 0.979);
+            font-style: italic;
+            background-color: rgba(112, 29, 101, 0.267);
+            border: 1px black;
+            padding: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+     
+            box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+            transition: color 1s;
+           
+            cursor: pointer;
+        max-width: 100px;
+       margin-left: 50px;
+        margin-top: 50px;
+}
+
+.button-link:hover,
+.button-link:focus {
+    color: brown;
+    scale: 1.1;
+}
